@@ -11,9 +11,6 @@ import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
-/**
- * Created by admin on 2017/11/27.
- */
 
 public class ZoomImageView extends android.support.v7.widget.AppCompatImageView implements ViewTreeObserver.OnGlobalLayoutListener, ScaleGestureDetector.OnScaleGestureListener, View.OnTouchListener {
     private boolean isOnce = false;
@@ -141,7 +138,9 @@ public class ZoomImageView extends android.support.v7.widget.AppCompatImageView 
     }
 
     @Override
-    public void onScaleEnd(ScaleGestureDetector detector) {
+    public void onScaleEnd(ScaleGestureDetector detector)
+
+    {
 
     }
 

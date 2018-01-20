@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
     android:layout_height="match_parent">
 
-    <com.kx.admin.helloworld.view.ZoomImageView
-        android:background="#f00"
-        android:scaleType="matrix"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-       android:src="@drawable/ic_launcher_background" />
-    <!--<TextView-->
+    <!--<com.kx.admin.helloworld.view.ZoomImageView-->
         <!--android:background="#f00"-->
-        <!--android:text="fdfd"-->
+        <!--android:scaleType="matrix"-->
         <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent" />-->
+        <!--android:layout_height="match_parent"-->
+       <!--android:src="@drawable/ic_launcher_background" />-->
+
+    <TextView
+        android:onClick="changeSkin"
+        android:gravity="center"
+        android:text="换肤"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
